@@ -4,7 +4,7 @@ from grafolib import Grafo
 g = Grafo(representation="list", weighted=True)
 
 # Carrega o grafo
-g.load_from_file("grafo.txt")
+g.load_from_file("grafoComPeso.txt")
 
 # Gera o arquivo de informações do grafo
 g.write_info("saida_info.txt")
