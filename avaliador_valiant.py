@@ -53,7 +53,7 @@ if __name__ == "__main__":
         plt.plot(cs, resultados_sucesso[n], label=f'n = {n}', marker='o')
     plt.xlabel("Valor de c (densidade)")
     plt.ylabel("Taxa de sucesso (%)")
-    plt.title("Taxa de sucesso do algoritmo de Angluin & Valiant (versão aprimorada)")
+    plt.title("Taxa de sucesso do algoritmo de Angluin & Valiant")
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
